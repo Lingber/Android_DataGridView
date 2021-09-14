@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Android_DataGridView</string>
+    <string name="str_index">序号</string>
+    <string name="str_name">姓名</string>
+    <string name="str_age">年龄</string>
+    <string name="str_sex">性别</string>
+    <string name="str_department">部门</string>
+    <string name="str_rank">职级</string>
+    <string name="str_sales">销售额</string>
+</resources>

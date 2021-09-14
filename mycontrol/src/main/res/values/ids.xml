@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="header_item0" type="id"/>
+    <item name="header_item1" type="id"/>
+    <item name="header_item2" type="id"/>
+    <item name="header_item3" type="id"/>
+    <item name="header_item4" type="id"/>
+    <item name="header_item5" type="id"/>
+    <item name="header_item6" type="id"/>
+    <item name="header_item7" type="id"/>
+    <item name="header_item8" type="id"/>
+    <item name="header_item9" type="id"/>
+    <item name="header_item10" type="id"/>
+    <item name="header_item11" type="id"/>
+    <item name="header_item12" type="id"/>
+    <item name="header_item13" type="id"/>
+    <item name="header_item14" type="id"/>
+    <item name="header_item15" type="id"/>
+
+    <item name="header_sort_icon_item0" type="id"/>
+    <item name="header_sort_icon_item1" type="id"/>
+    <item name="header_sort_icon_item2" type="id"/>
+    <item name="header_sort_icon_item3" type="id"/>
+    <item name="header_sort_icon_item4" type="id"/>
+    <item name="header_sort_icon_item5" type="id"/>
+    <item name="header_sort_icon_item6" type="id"/>
+    <item name="header_sort_icon_item7" type="id"/>
+    <item name="header_sort_icon_item8" type="id"/>
+    <item name="header_sort_icon_item9" type="id"/>
+    <item name="header_sort_icon_item10" type="id"/>
+    <item name="header_sort_icon_item11" type="id"/>
+    <item name="header_sort_icon_item12" type="id"/>
+    <item name="header_sort_icon_item13" type="id"/>
+    <item name="header_sort_icon_item14" type="id"/>
+    <item name="header_sort_icon_item15" type="id"/>
+
+    <item name="item_cell0" type="id"/>
+    <item name="item_cell1" type="id"/>
+    <item name="item_cell2" type="id"/>
+    <item name="item_cell3" type="id"/>
+    <item name="item_cell4" type="id"/>
+    <item name="item_cell5" type="id"/>
+    <item name="item_cell6" type="id"/>
+    <item name="item_cell7" type="id"/>
+    <item name="item_cell8" type="id"/>
+    <item name="item_cell9" type="id"/>
+    <item name="item_cell10" type="id"/>
+    <item name="item_cell11" type="id"/>
+    <item name="item_cell12" type="id"/>
+    <item name="item_cell13" type="id"/>
+    <item name="item_cell14" type="id"/>
+    <item name="item_cell15" type="id"/>
+
+    <item name="item_cell_content0" type="id"/>
+    <item name="item_cell_content1" type="id"/>
+    <item name="item_cell_content2" type="id"/>
+    <item name="item_cell_content3" type="id"/>
+    <item name="item_cell_content4" type="id"/>
+    <item name="item_cell_content5" type="id"/>
+    <item name="item_cell_content6" type="id"/>
+    <item name="item_cell_content7" type="id"/>
+    <item name="item_cell_content8" type="id"/>
+    <item name="item_cell_content9" type="id"/>
+    <item name="item_cell_content10" type="id"/>
+    <item name="item_cell_content11" type="id"/>
+    <item name="item_cell_content12" type="id"/>
+    <item name="item_cell_content13" type="id"/>
+    <item name="item_cell_content14" type="id"/>
+    <item name="item_cell_content15" type="id"/>
+
+</resources>

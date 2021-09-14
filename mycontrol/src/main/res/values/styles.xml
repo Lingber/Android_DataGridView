@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="DataGridView">
+        <attr name="column" format="integer" />
+        <attr name="row_height" format="integer" />
+        <attr name="show_header" format="boolean" />
+        <attr name="orientation" format="integer" />
+        <attr name="dividerSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="NumberController">
+        <attr name="stride" format="integer" />
+        <attr name="allow_minus" format="boolean" />
+        <attr name="init_value" format="integer" />
+        <attr name="max" format="integer" />
+        <attr name="min" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="Keyboard">
+    </declare-styleable>
+
+    <style name="MyCheckBoxTheme" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/lingber_checkbox_style</item>
+    </style>
+
+    <style name="keyboardBtn">
+        <item name="android:layout_width">94dp</item>
+        <item name="android:layout_height">94dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">@drawable/lingber_keyboard_default_style</item>
+        <item name="android:clickable">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <!--按钮样式-->
+    <style name="BtnStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#ff333333</item>
+        <item name="android:background">@drawable/lingber_ripple_bg_btn</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <!--输入框样式-->
+    <style name="InputBoxStyle">
+        <item name="android:layout_width">180dp</item>
+        <item name="android:layout_height">90dp</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="android:background">@drawable/lingber_edittext_shape</item>
+        <item name="android:textColorHint">#FFC2C2C2</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

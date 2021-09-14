@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <!--软键盘输入 Start-->
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/cl_soft_keyboard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tv_key_1"
+            style="@style/keyboardBtn"
+            android:text="1"/>
+
+        <TextView
+            android:id="@+id/tv_key_2"
+            style="@style/keyboardBtn"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="0dp"
+            android:text="2"
+            app:layout_constraintStart_toEndOf="@id/tv_key_1"
+            app:layout_constraintTop_toTopOf="@id/tv_key_1"/>
+
+        <TextView
+            android:id="@+id/tv_key_3"
+            style="@style/keyboardBtn"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="0dp"
+            android:text="3"
+            app:layout_constraintStart_toEndOf="@id/tv_key_2"
+            app:layout_constraintTop_toTopOf="@id/tv_key_2"/>
+
+        <TextView
+            android:id="@+id/tv_key_4"
+            style="@style/keyboardBtn"
+            android:text="4"
+            app:layout_constraintStart_toStartOf="@id/tv_key_1"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_1"/>
+
+        <TextView
+            android:id="@+id/tv_key_5"
+            style="@style/keyboardBtn"
+            android:text="5"
+            app:layout_constraintStart_toStartOf="@id/tv_key_2"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_2"/>
+
+        <TextView
+            android:id="@+id/tv_key_6"
+            style="@style/keyboardBtn"
+            android:text="6"
+            app:layout_constraintStart_toStartOf="@id/tv_key_3"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_3"/>
+
+        <TextView
+            android:id="@+id/tv_key_7"
+            style="@style/keyboardBtn"
+            android:text="7"
+            app:layout_constraintStart_toStartOf="@id/tv_key_4"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_4"/>
+
+        <TextView
+            android:id="@+id/tv_key_8"
+            style="@style/keyboardBtn"
+            android:text="8"
+            app:layout_constraintStart_toStartOf="@id/tv_key_5"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_5"/>
+
+        <TextView
+            android:id="@+id/tv_key_9"
+            style="@style/keyboardBtn"
+            android:text="9"
+            app:layout_constraintStart_toStartOf="@id/tv_key_6"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_6"/>
+
+        <TextView
+            android:id="@+id/tv_key_hash"
+            style="@style/keyboardBtn"
+            android:text="#"
+            app:layout_constraintStart_toStartOf="@id/tv_key_7"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_7"/>
+
+        <TextView
+            android:id="@+id/tv_key_0"
+            style="@style/keyboardBtn"
+            android:text="0"
+            app:layout_constraintStart_toStartOf="@id/tv_key_8"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_8"/>
+
+        <ImageView
+            android:id="@+id/iv_backspace"
+            style="@style/keyboardBtn"
+            android:paddingBottom="20dp"
+            android:paddingEnd="20dp"
+            android:paddingStart="15dp"
+            android:paddingTop="20dp"
+            android:src="@drawable/lingber_ic_backspacing"
+            app:layout_constraintStart_toStartOf="@id/tv_key_9"
+            app:layout_constraintTop_toBottomOf="@id/tv_key_9"/>
+
+    </android.support.constraint.ConstraintLayout>
+    <!--软键盘输入 End-->
+
+</LinearLayout>

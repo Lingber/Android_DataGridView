@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lingber_border_shape">
+    <!--Header-->
+    <LinearLayout
+        android:id="@+id/ll_header"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/lingber_line_shape">
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--RecyclerView-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_rv1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true">
+        </androidx.recyclerview.widget.RecyclerView>
+        
+        <ImageButton
+            android:id="@+id/btn_prev"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lingber_ic_up"
+            android:background="@drawable/lingber_ripple_bg_btn"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <RelativeLayout
+            android:id="@+id/rv_page_number"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/btn_prev"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/lingber_page_number_shape">
+
+            <TextView
+                android:id="@+id/tv_current_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ff515151"
+                android:layout_centerHorizontal="true"
+                android:layout_above="@+id/tv_delimiter"/>
+
+            <TextView
+                android:id="@+id/tv_delimiter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ff515151"
+                android:layout_centerInParent="true"
+                android:text="/"/>
+
+            <TextView
+                android:id="@+id/tv_count_page"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#ff515151"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/tv_delimiter"/>
+
+        </RelativeLayout>
+
+        <ImageButton
+            android:id="@+id/btn_next"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rv_page_number"
+            android:src="@drawable/lingber_ic_down"
+            android:background="@drawable/lingber_ripple_bg_btn"
+            android:layout_marginRight="10dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
