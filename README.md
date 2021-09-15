@@ -1,16 +1,3 @@
-# Android_DataGridView
-## Android表格控件，自带表头、翻页、排序等功能，还可自定义样式，一句代码完成配置。
-
-```
-Android表格控件，自带表头、翻页、排序等功能，还可自定义样式，一句代码完成配置。
-```
-* Android表格控件，自带表头、翻页、排序等功能，还可自定义样式，一句代码完成配置。
-> Android表格控件，自带表头、翻页、排序等功能，还可自定义样式，一句代码完成配置。  
-Android表格控件，自带表头、翻页、排序等功能，还可自定义样式，一句代码完成配置。
-![图片名称](https://www.baidu.com/img/bd_logo1.png)
-[链接名称](https://www.baidu.com/)  
-*强调*
-
 # Android DataGridView
 基于Android的表格控件，几行代码的简单配置即可使用
 
@@ -191,4 +178,5 @@ getItemCellContentView(row, column); // 获取指定单元格内部View
 欢迎加入技术交流QQ群：790307019，让我们一起完善这个控件吧！
 
 ## 打赏
-如果觉得该内容对您有用，并且想要请作者喝杯咖啡的话，请扫下面的微信二维码：
+如果觉得该内容对您有用，并且想要请作者喝杯咖啡的话，请扫下面的微信二维码：  
+![打赏码](https://github.com/Lingber/Resource/blob/main/Lingber%E6%94%B6%E6%AC%BE%E7%A0%81.jpg)
