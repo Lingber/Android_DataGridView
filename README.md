@@ -180,5 +180,5 @@ getItemCellContentView(row, column); // 获取指定单元格内部View
 欢迎加入技术交流QQ群：790307019，让我们一起完善这个控件吧！
 
 ## 打赏
-如果觉得该内容对您有用，并且想要请作者喝杯咖啡的话，请扫下面的微信二维码：  
+如果觉得该内容对您有用，请给这个项目点个Start吧!如果想要请作者喝杯咖啡的话，请扫下面的微信二维码：  
 ![打赏码](https://github.com/Lingber/Resource/blob/main/Lingber%E6%94%B6%E6%AC%BE%E7%A0%81.jpg)
