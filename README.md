@@ -103,6 +103,7 @@ Step5: 在 Activity 或者 Fragment 中添加
 
 ## 选配参数
 * 样式配置
+```
 setColunms(param) // 设置列数  
 setRowHeight(param) // 设置行高  
 setDividerSize(param) // 设置分割线粗细  
@@ -111,6 +112,7 @@ setRvContentColorResId(param) // 设置列表底色
 setSetRowIsSelectedBackgroundColor(param) // 设置行选中后底色  
 setCellContentView(new Class[]{TextView.class, TextView.class, TextView.class}) // 设置1、2、3列表单元格包含控件类型  
 reFreshLanguage(); // 刷新语言
+```
 * 排序示例  
 ```
 setSortIsEnabled(new int[]{0, 2, 6} , true);  // 开启第1、3、7列的排序
