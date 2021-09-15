@@ -12,7 +12,7 @@
 * 自定义表格大小
 
 ## Demo
-[Android_DataGridView.apk](https://github.com/Lingber/Android_DataGridView)  
+[Android_DataGridView.apk](https://github.com/Lingber/Resources/blob/main/Android_DataGridView.apk)  
 
 ## 项目演示
 > 翻页功能演示  
