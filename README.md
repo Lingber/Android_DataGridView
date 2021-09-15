@@ -20,6 +20,7 @@
 * 表头排序演示  
 ![排序](https://user-images.githubusercontent.com/21054401/133441718-5f03bdd9-2612-4265-a665-94c11f52148b.gif)
 * 单选多选演示  
+![单选](https://user-images.githubusercontent.com/21054401/133442196-6815494a-2d3f-4861-a6b8-1614f69abdfa.gif)  
 ![多选](https://user-images.githubusercontent.com/21054401/133441770-01a393d2-5b00-4269-91ba-8445981e29a0.gif)
 * 滑动演示  
 ![滑动](https://user-images.githubusercontent.com/21054401/133441852-5fe7e4ac-3277-4028-8fb3-f10bf804915c.gif)
