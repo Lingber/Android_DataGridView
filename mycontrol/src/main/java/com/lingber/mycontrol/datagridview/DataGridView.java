@@ -579,7 +579,7 @@ public class DataGridView<T> extends LinearLayout implements View.OnClickListene
 
     /**设置表头**/
     private void setHeader(String[] headerContent, float[] colunmsWeight){
-
+        mLlHeader.removeAllViews();
         if(headerContent.length==colunmsWeight.length){
             for(int i=0;i<headerContent.length;i++){
                 // 增加LinearLayout
