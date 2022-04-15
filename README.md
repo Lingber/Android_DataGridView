@@ -37,7 +37,7 @@ Step1: 在项目路径下的build.gradle文件中添加
 Step2: 在app路径下的build.gradle文件中添加
 ```
   dependencies {
-          implementation 'com.github.Lingber:Android_DataGridView:Tag'
+          implementation 'com.github.Lingber:Android_DataGridView:1.01'
   }
 ```
 Step3: 在布局文件中添加
